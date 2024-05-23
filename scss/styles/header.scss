@@ -1,0 +1,14 @@
+.header{
+    min-height: 75px;
+    padding: 17px 12px 9px 12px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(180deg, #FDFBFB 0%, #EBEBEB 100%);
+    gap: 15px;
+
+    &-group{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,80 @@
+body {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: 20px;
+  box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+.btn {
+  &-text {
+    padding: 10px;
+    border: 0.5px solid #737373;
+    color: black;
+    font-size: 13px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  &-icon {
+    padding: 7px;
+  }
+}
+
+.search-form{
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  border: 1px solid #E0DFDF;
+  padding: 14px;
+  box-shadow: 0 1px 1px #0B0A0A;
+  background-color: white;
+
+  input{
+      width: 100%;
+      height: 100%;
+      border: none;
+      background-color: transparent;
+      outline: none;
+      font-family: Montserrat;
+      font-weight: 300;
+      font-size: 16px;
+      color: black;
+      
+      &::placeholder{
+          color: black;
+      }
+  }
+}
